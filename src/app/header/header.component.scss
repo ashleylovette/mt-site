@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  width: 100%;
+
+ .nav {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+
+    .nav-content {
+      flex: flex-end;
+      padding: 1em;
+    }
+ }
+}
