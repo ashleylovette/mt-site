@@ -1,0 +1,17 @@
+app-header {
+  top: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+}
+
+.body {
+  z-index: 1;
+
+  app-section-one {
+    top: 0;
+    padding: 0;
+  }
+}
+
