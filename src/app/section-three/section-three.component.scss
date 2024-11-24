@@ -1,0 +1,12 @@
+.section-three-container {
+  display: flex;
+
+  .text {
+    width: 30em;
+  }
+
+  .booking {
+    width: 30em;
+    border: 2px solid red;
+  }
+}

@@ -1,3 +1,21 @@
 .section-two-container {
   height: 90vh;
+  display: flex;
+  align-items: center;
+
+  .content {
+    margin: 2em;
+
+    .section-two-header {
+      margin-bottom: .5em;
+    }
+  }
+
+  .description {
+    width: 35em;
+  }
+
+  img {
+    height: 30em;
+  }
 }
