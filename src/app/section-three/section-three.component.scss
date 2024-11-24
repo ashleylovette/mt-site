@@ -3,10 +3,22 @@
 
   .text {
     width: 30em;
+    font-size: x-large;
+    font-weight: 200;
+    color: gray;
+    padding: 2em;
   }
 
-  .booking {
-    width: 30em;
-    border: 2px solid red;
+  .appointments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .booking {
+      width: 30em;
+      height: 7em;
+      border: .75px solid lightgray;
+      border-radius: 1%;
+    }
   }
 }
