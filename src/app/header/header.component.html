@@ -1,6 +1,12 @@
 <div class="header-container">
   <div class="nav">
-    <div class="nav-content">About</div>
-    <div class="nav-content">Contact</div>
+    <div class="nav-content" (click)="scroll('section-two')">
+      <button type="button" class="btn">About</button>
+    </div>
+    <div class="nav-content">
+      <button type="button" class="btn" (click)="scroll('section-three')">
+        Contact
+      </button>
+    </div>
   </div>
 </div>
