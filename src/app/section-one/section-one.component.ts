@@ -12,4 +12,10 @@ export class SectionOneComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  scroll() {
+    const section = document.getElementById('section-three');
+    if(section) {
+      section.scrollIntoView({behavior: 'smooth'});
+    }
+  }
 }
